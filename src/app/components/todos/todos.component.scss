@@ -1,0 +1,75 @@
+.todos {
+  width: 450px;
+  padding: 0 0 0 10px;
+
+  form {
+    display: flex;
+
+    align-items: center;
+
+    input[type="text"] {
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      padding: 7px;
+      width: 100%;
+      margin: 0;
+      font-size: 15px;
+      color: #666;
+      outline: none;
+      margin: 10px;
+    }
+
+    input[type="submit"] {
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      padding: 7px;
+      width: 100px;
+      margin: 0;
+      font-size: 15px;
+      color: lightgreen;
+      outline: none;
+      background-color: green;
+      cursor: pointer;
+
+      &:hover {
+        color: green;
+        background-color: lightgreen;
+      }
+
+    }
+
+  }
+}
+
+.todo {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 18px 0;
+
+  background-color: #ccc;
+  padding: 14px;
+
+  &.done .content {
+    text-decoration: line-through;
+    font-style: italic;
+  }
+
+
+
+  button {
+    border-radius: 3px;
+    border: none;
+    padding: 7px;
+    background-color: pink;
+    color: red;
+    cursor: pointer;
+
+    &:hover {
+      background-color: coral;
+      color: pink;
+    }
+  }
+
+}

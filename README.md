@@ -1,2 +1,12 @@
-# to-do-list-angular
-Simples aplicação de Lista de Tarefas com Angular CLI
+# Lista de Tarefas Simples
+
+
+
+
+
+
+
+
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.4.
+#### @montagnanii on instagram
